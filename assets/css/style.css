@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  background-color: rgba(196, 192, 192, 0.329);
+  width: 100%;
+  height: 80px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header h1 {
+  margin-right: 580px;
+  text-transform: uppercase;
+  font-family: "Bitter", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.job ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact img {
+  margin: auto;
+  width: 14px;
+  height: 14px;
+}
+
+.carrefour {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border: 0px solid #333;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
+}
+
+.courir {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border: 0px solid #333;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
+}
+
+.studia {
+  list-style: none;
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border: 0px solid #333;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
+}
+
+.community {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border: 0px solid #333;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
+  margin-right: 50px;
+}
+.exp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  width: 2000px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+.info {
+  font-family: "Bitter", serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+.info h2 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.info img {
+  width: 500px;
+  /* height: 580px; */
+}
+h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
